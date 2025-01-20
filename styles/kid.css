@@ -74,9 +74,9 @@ font-weight: 700;
 }
 .banp{
     color: rgb(17, 17, 17);
-font-family: Quicksand;
 font-size: 20px;
 font-weight: 400;
+
 }
 .banen{
     width: 197px;
@@ -88,7 +88,7 @@ font-size: 20px;
 font-weight: 700;
 }
 .bancon{
-    margin-top: 122px;
+    margin-top: 100px;
     margin-bottom: 122px;
 }
 .banpex{
