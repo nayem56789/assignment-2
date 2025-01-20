@@ -12,6 +12,7 @@
     margin-right: 140px;
     
 }
+/*nav*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -61,3 +62,45 @@ font-size: 20px;
 font-weight: 600;
 margin-top: 26px;
 }
+/*banner*/
+.bandiv{
+    display: flex;
+    gap: 150px;
+}
+.banh{
+font-size: 56px;
+font-weight: 700;
+
+}
+.banp{
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+}
+.banen{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+}
+.bancon{
+    margin-top: 122px;
+    margin-bottom: 122px;
+}
+.banpex{
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+}
+.blh{
+    color: rgb(254, 163, 1);
+}
+.orh{
+    color: rgb(1, 172, 253);
+}
+/*standard curriculam*/
