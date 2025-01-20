@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+.meg{
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.navlink{
+   list-style: none;
+   display: flex;
+ gap: 32px;
+ margin-top: 36px;
+font-size: 20px;
+font-weight: 700;
+}
+.headnav{
+    display: flex;
+}
+.logo{
+    width: 62px;
+    height: 62px;
+    margin-top: 20px;
+}
+.logoh{
+    color: rgb(17, 17, 17);
+font-size: 32px;
+font-weight: 700;
+}
+.ho{
+color: rgb(254, 163, 1);
+}
+.ab{
+color: rgb(1, 172, 253);
+}
+.fc{
+color: rgb(5, 212, 223);
+}
+.ad{
+  color: rgb(93, 88, 239);  
+}
+.btnnav{
+width: 197px;
+height: 50px;
+background-color: rgb(254, 163, 1);
+border-radius: 12px;
+border: none;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+margin-top: 26px;
+}
