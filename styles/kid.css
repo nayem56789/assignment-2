@@ -94,7 +94,7 @@ margin-top: 26px;
         margin-top: 30px;
         width: 30px;
         height: 30px;
-        margin-left: 340px;
+        margin-left: 500px;
     }
 }
 /*banner*/
@@ -147,7 +147,7 @@ font-weight: 400;
         max-width: 336px;
         max-height: 413px;
         margin-right: 5px;
-        margin-left: 30px;
+        margin-left: 120px;
        
     }
     .bancon{
@@ -298,7 +298,7 @@ font-weight: 900;
     }
     .card1, .card2, .card3{
         width: 350px;
-        margin-left: 30px;
+        margin-left: 120px;
         margin-bottom: 20px;
     }
     .tukibtn{
@@ -428,7 +428,9 @@ margin-bottom: 60px;
 color: rgb(255, 255, 255);
 font-size: 1.25rem;
 font-weight: 700;
+
 }
+
 @media screen and (max-width: 576px){
     .sh{
         margin-top: -150px;
@@ -439,7 +441,7 @@ font-weight: 700;
     .scon2s{
         max-width: 173px;
         max-height: 179px;
-       margin-left: 0px;
+       margin-left: -150px;
        font-size: 0.57rem;
        
     }
@@ -448,6 +450,7 @@ font-weight: 700;
         max-height: 179px;
         font-size: 0.57rem;
         margin-right: 20px;
+        margin-left: -80px;
     }
     .scon1i{
 max-width: 173px;
@@ -465,7 +468,7 @@ max-width: 173px;
         margin-top: -10px;
     }
     .view{
-        margin-left: 33%;
+        margin-left: 43%;
         width: 134px;
 height: 30px;
 font-size: 1rem;
@@ -477,6 +480,9 @@ margin-top: 15px;
     .sh{
         margin-top: -170px;
         
+}
+.scon2{
+    margin-right: 70px;
 }
 }
 footer{
