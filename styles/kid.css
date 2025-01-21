@@ -11,6 +11,11 @@
     margin-left: 140px;
     margin-right: 140px;
 }
+@media screen and (max-width: 576px) {
+    .meg{
+        margin: 0px;
+    }
+}
 /*nav*/
 nav{
     display: flex;
@@ -22,7 +27,7 @@ nav{
    display: flex;
  gap: 32px;
  margin-top: 36px;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 700;
 }
 .headnav{
@@ -35,7 +40,7 @@ font-weight: 700;
 }
 .logoh{
     color: rgb(17, 17, 17);
-font-size: 32px;
+font-size: 2rem;
 font-weight: 700;
 }
 .ho{
@@ -57,9 +62,40 @@ background-color: rgb(254, 163, 1);
 border-radius: 12px;
 border: none;
 color: rgb(255, 255, 255);
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 600;
 margin-top: 26px;
+}
+.fa-solid{
+    position: absolute;
+    visibility: hidden;
+    
+}
+@media screen and (max-width: 576px) {
+    .navlink, .btnnav, .logoh{
+        display: none;
+        
+    }
+    .logo{
+        padding-bottom: 20px;
+        max-width: 39px;
+        max-height: 46px;
+        margin-left: 10px;
+    }
+
+    nav{
+        border-bottom: 1px solid orange;
+       max-width: 100%;
+       
+    }
+    .fa-solid{
+        visibility: visible;
+        margin-right: 20px;
+        margin-top: 30px;
+        width: 30px;
+        height: 30px;
+        margin-left: 340px;
+    }
 }
 /*banner*/
 .bandiv{
@@ -67,13 +103,13 @@ margin-top: 26px;
     gap: 150px;
 }
 .banh{
-font-size: 56px;
+font-size: 3.5rem;
 font-weight: 700;
 
 }
 .banp{
     color: rgb(17, 17, 17);
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 400;
 
 }
@@ -83,7 +119,7 @@ font-weight: 400;
     border-radius: 12px;
 background: rgb(17, 17, 17);
 color: rgb(255, 255, 255);
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 700;
 }
 .bancon{
@@ -92,8 +128,8 @@ font-weight: 700;
 }
 .banpex{
     color: rgb(17, 17, 17);
-font-family: Quicksand;
-font-size: 20px;
+
+font-size: 1.25rem;
 font-weight: 400;
 }
 .blh{
@@ -102,6 +138,41 @@ font-weight: 400;
 .orh{
     color: rgb(1, 172, 253);
 }
+@media screen and (max-width: 576px){
+    .bandiv{
+        flex-direction: column-reverse;
+        
+    }
+    .banim{
+        max-width: 336px;
+        max-height: 413px;
+        margin-right: 5px;
+        margin-left: 30px;
+       
+    }
+    .bancon{
+        margin-top: -180px;
+       text-align: center;
+    }
+    .banp{
+        margin-right: 20px;
+        font-size: 0.8rem;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+    .banen{
+        width: 131px;
+        height: 42px;
+        font-size: 1rem;
+    }
+    .banpex{
+        display: none;
+    }
+    .banh{
+        font-size: 2rem;
+    }
+}
+    
 /*standard curriculam*/
 .bg{
     background-image: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
@@ -216,10 +287,34 @@ font-weight: 900;
     display: flex;
 
 }
+@media screen and (max-width: 576px){
+    .cdiv{
+        flex-direction: column;
+    }
+    .ch{
+        margin-top: -70px;
+        
+       
+    }
+    .card1, .card2, .card3{
+        width: 350px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .tukibtn{
+        visibility: hidden;
+    }
+    .c1h{
+        font-size: 1rem;
+    }
+    .c1p, .c1p1, .c2p2, .c3p3{
+        font-size: 0.6rem;
+    }
+}
 /*story*/
 .sh{
     color: rgb(0, 0, 0);
-font-size: 46px;
+font-size: 2.8rem;
 font-weight: 700;
 text-align: center;
 margin-top: 60px;
@@ -258,7 +353,7 @@ height: 47.93px;
 border-radius: 47.93px;
 background: rgb(60, 216, 232);
 color: rgb(255, 255, 255);
-font-size: 15.34px;
+font-size: 0.9rem;
 font-weight: 500;
 text-align: center;
 
@@ -273,13 +368,13 @@ height: 69.98px;
 margin-left: 38px;
 
     color: rgb(0, 0, 0);
-font-size: 24px;
+font-size: 1.5rem;
 font-weight: 700;
 line-height: 38.35px;
 }
 .ssp{
     color: rgb(102, 102, 102);
-font-size: 15.34px;
+font-size: 0.9rem;
 font-weight: 500;
 line-height: 28.76px;
 text-align: left;
@@ -288,7 +383,7 @@ width: 433.06px;
 height: 75.74px;
 margin-left: 38px;
 }
-.scon2s{
+.scon2s, .scon2sr{
     width: 290.69px;
     height: 305.61px;
     border-radius: 16px;
@@ -304,7 +399,7 @@ background: rgb(255, 255, 255);
 
     background: rgb(149, 178, 38);
 color: rgb(255, 255, 255);
-font-size: 15.34px;
+font-size: 0.9rem;
 font-weight: 500;
 text-align: center;
 
@@ -327,13 +422,62 @@ background: rgb(17, 17, 17);
 
 width: 197px;
 height: 50px;
-margin-left: 47%;
+margin-left: 42%;
 margin-top: 80px;
 margin-bottom: 60px;
 color: rgb(255, 255, 255);
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 700;
-
+}
+@media screen and (max-width: 576px){
+    .sh{
+        margin-top: -150px;
+    }
+    .scon1, marquee{
+        display: none;
+    }
+    .scon2s{
+        max-width: 173px;
+        max-height: 179px;
+       margin-left: 0px;
+       font-size: 0.57rem;
+       
+    }
+    .scon2sr{
+        max-width: 173px;
+        max-height: 179px;
+        font-size: 0.57rem;
+        margin-right: 20px;
+    }
+    .scon1i{
+max-width: 173px;
+    }
+    .sd2{
+        margin-left: -20px;
+        width: 103px;
+        max-height: 22px;
+        font-size: 0.57rem;
+        
+        margin-top: 15px;
+        
+    }
+    .ssh1{
+        margin-top: -10px;
+    }
+    .view{
+        margin-left: 33%;
+        width: 134px;
+height: 30px;
+font-size: 1rem;
+margin-top: 15px;
+    }
+    .sh, .ch{
+        font-size: 1.6rem;
+    }
+    .sh{
+        margin-top: -170px;
+        
+}
 }
 footer{
     background: rgb(1, 172, 253);
@@ -342,12 +486,14 @@ height: 519px;
 }
 marquee{
     height: 630px;
+    line-height: 50px;
+    color: tomato;
 }
 .footm{
     display: flex;
     
-    width: 1070.91px;
-    height: 222px;
+    
+    
     padding-left: 228px;
     padding-right: 200px;
     padding-top: 123px;
@@ -360,7 +506,7 @@ marquee{
 
 }
 .footh1{
-font-size: 42.14px;
+font-size: 2.6rem;
 font-weight: 700;
 line-height: 39.51px;
 
@@ -372,23 +518,23 @@ height: 80px;
 margin-top: 35px;
 }
 .footad{
-    font-size: 20px;
+    font-size: 1.25rem;
 font-weight: 400;
 line-height: 25px;
 }
-ul>li{
+.footli{
     list-style: none;
     margin-left: -35px;
     padding-top: 20px;
 }
 .aboh{
     
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     
 }
 .footlh{
-font-size: 26px;
+font-size: 1.6rem;
 font-weight: 700;
 }
 .footi{
@@ -397,5 +543,40 @@ font-weight: 700;
 .abou{
     margin-left: 50px;
     margin-right: 50px;
+}
+@media screen and (max-width: 576px) {
+    .footm{
+        max-width: 100%;
+        
+        flex-direction: column;
+      margin: 0px;
+      padding: 0px;
+    }
+    .footlogo{
+        width: 58px;
+        height: 69px;
+    }
+    .footh1{
+        font-size: 2.18rem;
+    }
+    .footad{
+        font-size: 1rem;
+        margin-left: 21px;
+        margin-top: -10px;
+    }
+    .aboh, .footul{
+       margin-left: -25px;
+       margin-top: -10px;
+       margin-bottom: -10px;
+       
+    }
+    
+    .footlh{
+       
+        margin-left: 25px;
+    }
+    .slogo{
+        margin-left: 25px;
+    }
 }
     
