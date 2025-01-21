@@ -10,7 +10,6 @@
 .meg{
     margin-left: 140px;
     margin-right: 140px;
-    
 }
 /*nav*/
 nav{
@@ -225,15 +224,19 @@ font-weight: 700;
 text-align: center;
 margin-top: 60px;
 margin-bottom: 80px;
+
 }
 .scon{
     display: flex;
     gap: 10px;
+   justify-content: space-between;
+  
 }
 .scon2{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 11px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
 }
 .scon1s{
     width: 540px;
@@ -337,4 +340,62 @@ footer{
     width: 100%;
 height: 519px;
 }
+marquee{
+    height: 630px;
+}
+.footm{
+    display: flex;
+    
+    width: 1070.91px;
+    height: 222px;
+    padding-left: 228px;
+    padding-right: 200px;
+    padding-top: 123px;
+    padding-bottom: 175px;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+.foot1d{
+    display: flex;
 
+}
+.footh1{
+font-size: 42.14px;
+font-weight: 700;
+line-height: 39.51px;
+
+}
+.footlogo{
+    
+width: 57.78px;
+height: 80px;
+margin-top: 35px;
+}
+.footad{
+    font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+}
+ul>li{
+    list-style: none;
+    margin-left: -35px;
+    padding-top: 20px;
+}
+.aboh{
+    
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.footlh{
+font-size: 26px;
+font-weight: 700;
+}
+.footi{
+    margin-right: 10px;
+}
+.abou{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+    
